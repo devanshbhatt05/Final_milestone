@@ -1,0 +1,56 @@
+.dashboard {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-schedule {
+    font-weight: bold;
+  }
+  
+  .menu-category {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  
+  .menu-category.veg {
+    background-color: green;
+  }
+  
+  .menu-category.non-veg {
+    background-color: red;
+  }
+  
+  .menu-name {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .menu-price {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  

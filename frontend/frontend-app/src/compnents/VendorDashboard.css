@@ -1,0 +1,49 @@
+.bg {
+  background-image: url('https://www.shutterstock.com/image-photo/healthy-breakfast-ingredients-food-frame-260nw-730734118.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.add-menu-container {
+
+
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-menu-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-menu-container form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-menu-container form select,
+.add-menu-container form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-menu-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-menu-container form button:hover {
+  background-color: #45a049;
+}
